@@ -3219,6 +3219,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 78.74) (xy 218.44 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56e4f644-6995-4d4f-9c28-9971ec9cecb9")
+	)
+	(wire
+		(pts
 			(xy 77.47 99.06) (xy 66.04 99.06)
 		)
 		(stroke
@@ -3316,16 +3326,6 @@
 			(type default)
 		)
 		(uuid "5f930252-aa8a-4f5b-ac52-4895a9ab6df4")
-	)
-	(wire
-		(pts
-			(xy 218.44 78.74) (xy 218.44 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61f718bb-e2f3-4db0-8154-53e6cdc9d174")
 	)
 	(wire
 		(pts
@@ -7786,6 +7786,48 @@
 				(path "/5d65a0d4-45a3-4af0-996a-c0381d04499a/f42a8a8a-4a34-440a-8e58-9c442fe0d23e"
 					(reference "C4")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 237.49 69.85)
+		(size 35.56 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "16a43eb5-0990-4f5c-a71d-12a9055d92a0")
+		(property "Sheetname" "usb"
+			(at 237.49 69.1384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb.kicad_sch"
+			(at 237.49 80.5946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Slim Keyboard"
+				(path "/5d65a0d4-45a3-4af0-996a-c0381d04499a/f42a8a8a-4a34-440a-8e58-9c442fe0d23e"
+					(page "7")
 				)
 			)
 		)

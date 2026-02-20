@@ -633,6 +633,10 @@
     [
       "6fe2117a-cced-4f4e-b78f-fc5e1a862882",
       "vcc_regulator"
+    ],
+    [
+      "16a43eb5-0990-4f5c-a71d-12a9055d92a0",
+      "usb"
     ]
   ],
   "text_variables": {}
