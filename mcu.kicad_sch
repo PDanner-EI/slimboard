@@ -7791,6 +7791,48 @@
 		)
 	)
 	(sheet
+		(at 237.49 53.34)
+		(size 35.56 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6fe2117a-cced-4f4e-b78f-fc5e1a862882")
+		(property "Sheetname" "vcc_regulator"
+			(at 237.49 52.6284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "vcc.kicad_sch"
+			(at 237.49 65.3546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Slim Keyboard"
+				(path "/5d65a0d4-45a3-4af0-996a-c0381d04499a/f42a8a8a-4a34-440a-8e58-9c442fe0d23e"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 237.49 36.83)
 		(size 35.56 11.43)
 		(exclude_from_sim no)

@@ -629,6 +629,10 @@
     [
       "8d78fcfc-e335-4768-b7c7-c99d7af02414",
       "charging"
+    ],
+    [
+      "6fe2117a-cced-4f4e-b78f-fc5e1a862882",
+      "vcc_regulator"
     ]
   ],
   "text_variables": {}
