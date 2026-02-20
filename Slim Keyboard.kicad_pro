@@ -625,6 +625,10 @@
     [
       "f42a8a8a-4a34-440a-8e58-9c442fe0d23e",
       "mcu"
+    ],
+    [
+      "8d78fcfc-e335-4768-b7c7-c99d7af02414",
+      "charging"
     ]
   ],
   "text_variables": {}
