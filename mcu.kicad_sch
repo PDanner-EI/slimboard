@@ -440,218 +440,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Crystal_GND3"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Y"
-				(at 0 5.715 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Crystal_GND3"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Three pin crystal, GND on pin 3"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "quartz ceramic resonator oscillator"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Crystal*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Crystal_GND3_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -1.905 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -2.286) (xy -2.54 -3.556) (xy 2.54 -3.556) (xy 2.54 -2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 -1.27) (xy -1.905 1.27)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.143 2.54)
-					(end 1.143 -2.54)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -3.81) (xy 0 -3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 1.27) (xy 1.905 -1.27)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Crystal_GND3_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 1.27)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:L"
 			(pin_numbers
 				(hide yes)
@@ -2974,12 +2762,6 @@
 		(uuid "62e5d7bf-cb3c-4791-9299-62471483dc90")
 	)
 	(junction
-		(at 38.1 172.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "64dbac02-c53d-4652-a289-9930a9b3c1b7")
-	)
-	(junction
 		(at 60.96 163.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3008,12 +2790,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "72cb13f0-1ad0-40c7-a4c8-3b0f50ee6b29")
-	)
-	(junction
-		(at 45.72 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "86667f23-078c-41dd-8db9-df2a64e85df2")
 	)
 	(junction
 		(at 194.31 49.53)
@@ -3285,7 +3061,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 182.88) (xy 38.1 172.72)
+			(xy 38.1 163.83) (xy 38.1 182.88)
 		)
 		(stroke
 			(width 0)
@@ -3322,16 +3098,6 @@
 			(type default)
 		)
 		(uuid "26ca4f30-c310-4856-9782-3b34bf1b0cab")
-	)
-	(wire
-		(pts
-			(xy 38.1 100.33) (xy 38.1 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d3f6248-5f78-438d-8daf-52c2e876e053")
 	)
 	(polyline
 		(pts
@@ -3612,16 +3378,6 @@
 			(type default)
 		)
 		(uuid "5d384a10-7038-4e33-9a65-a905274237a4")
-	)
-	(wire
-		(pts
-			(xy 38.1 102.87) (xy 45.72 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e01c674-e66f-41cc-929a-b74f939f909e")
 	)
 	(wire
 		(pts
@@ -4045,16 +3801,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 172.72) (xy 55.88 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b057c95f-3140-48c6-aa9f-d1829bb85953")
-	)
-	(wire
-		(pts
 			(xy 118.11 123.19) (xy 38.1 123.19)
 		)
 		(stroke
@@ -4182,16 +3928,6 @@
 			(type default)
 		)
 		(uuid "c92f6a34-cacb-4934-bc7f-41380c45f6b3")
-	)
-	(wire
-		(pts
-			(xy 38.1 172.72) (xy 38.1 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cab44f58-1027-4f3c-ad9a-e50b49b0fcea")
 	)
 	(wire
 		(pts
@@ -4560,28 +4296,6 @@
 		(uuid "a50dc8ae-9ca4-4556-a68d-687364f5f5cf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 45.72 89.0595 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VEXT"
-		(shape bidirectional)
-		(at 38.1 100.33 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cbb7ec48-1ef5-4d2d-9b4f-25169772d321")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 38.1 91.8188 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5262,7 +4976,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_2.5x2.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 138.43 182.88 0)
 			(effects
 				(font
@@ -5731,7 +5445,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 264.16 122.428 90)
 			(effects
 				(font
@@ -5799,7 +5513,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 144.78 174.498 90)
 			(effects
 				(font
@@ -6138,7 +5852,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_2.5x2.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 138.43 189.23 0)
 			(effects
 				(font
@@ -6178,7 +5892,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Crystal_GND3")
+		(lib_id "Device:Crystal")
 		(at 60.96 172.72 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6196,7 +5910,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "32 MHz"
+		(property "Value" "ABM11A-32.000MHZ-D2Y-T3"
 			(at 64.77 173.9899 90)
 			(effects
 				(font
@@ -6205,7 +5919,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm"
 			(at 60.96 172.72 0)
 			(effects
 				(font
@@ -6223,7 +5937,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Three pin crystal, GND on pin 3, XTAL SMD 2016, 32 MHz, Cl=8 pF, Total Tol: ±40 ppm"
+		(property "Description" "Two pin crystal"
 			(at 60.96 172.72 0)
 			(effects
 				(font
@@ -6237,9 +5951,6 @@
 		)
 		(pin "1"
 			(uuid "6e17acc3-4ac9-4f46-b06a-17c9bfea8f53")
-		)
-		(pin "3"
-			(uuid "8d95c4c3-5d9c-42b5-baff-b91e0ca54d5f")
 		)
 		(instances
 			(project ""
