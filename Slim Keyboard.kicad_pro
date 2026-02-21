@@ -637,6 +637,10 @@
     [
       "16a43eb5-0990-4f5c-a71d-12a9055d92a0",
       "usb"
+    ],
+    [
+      "302a6436-4e3c-4497-ba91-0be99fe995f0",
+      "pinout"
     ]
   ],
   "text_variables": {}

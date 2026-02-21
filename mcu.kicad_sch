@@ -6817,7 +6817,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 132.08 172.72 0)
 			(effects
 				(font
@@ -8633,7 +8633,7 @@
 	)
 	(sheet
 		(at 237.49 69.85)
-		(size 35.56 10.16)
+		(size 35.56 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -8657,7 +8657,7 @@
 			)
 		)
 		(property "Sheetfile" "usb.kicad_sch"
-			(at 237.49 80.5946 0)
+			(at 237.49 81.8646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8669,6 +8669,48 @@
 			(project "Slim Keyboard"
 				(path "/5d65a0d4-45a3-4af0-996a-c0381d04499a/f42a8a8a-4a34-440a-8e58-9c442fe0d23e"
 					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 237.49 146.05)
+		(size 35.56 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "302a6436-4e3c-4497-ba91-0be99fe995f0")
+		(property "Sheetname" "pinout"
+			(at 237.49 145.3384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pinout.kicad_sch"
+			(at 237.49 158.0646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Slim Keyboard"
+				(path "/5d65a0d4-45a3-4af0-996a-c0381d04499a/f42a8a8a-4a34-440a-8e58-9c442fe0d23e"
+					(page "8")
 				)
 			)
 		)
