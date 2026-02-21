@@ -117,7 +117,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kbd_local:Breakaway_Tabs"
+		(property "Footprint" "Panelization:BreakLine_9h_D0.5mm_P0.85mm"
 			(at 19.05 190.5 0)
 			(effects
 				(font
@@ -180,7 +180,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kbd_local:Breakaway_Tabs"
+		(property "Footprint" "Panelization:BreakLine_9h_D0.5mm_P0.85mm"
 			(at 19.05 184.15 0)
 			(effects
 				(font
@@ -243,7 +243,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kbd_local:Breakaway_Tabs"
+		(property "Footprint" "Panelization:BreakLine_9h_D0.5mm_P0.85mm"
 			(at 19.05 171.45 0)
 			(effects
 				(font
@@ -306,7 +306,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kbd_local:Breakaway_Tabs"
+		(property "Footprint" "Panelization:BreakLine_9h_D0.5mm_P0.85mm"
 			(at 19.05 177.8 0)
 			(effects
 				(font
