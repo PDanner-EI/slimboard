@@ -1067,6 +1067,34 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 77.47 116.84)
+		(end 132.08 142.24)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 60bf9ac1-0b56-412b-818e-837d39b6ef6e)
+	)
+	(text "(Controversial)\nOption 1: Leave unconnected\nOption 2: RC-Filter\nOption 3: Direct Ground"
+		(exclude_from_sim no)
+		(at 92.456 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8f2b5a7e-ae34-4ef8-905c-f6a2e021bed8")
+	)
+	(junction
+		(at 128.27 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a4ec3d8-eade-4f0d-8c06-4147a6f7b723")
+	)
 	(junction
 		(at 180.34 83.82)
 		(diameter 0)
@@ -1078,6 +1106,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "54c3aaf5-452d-4d0c-a49b-03a5da88d10b")
+	)
+	(junction
+		(at 128.27 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8dd6553c-91c0-4b08-ac90-78ef36b6d996")
 	)
 	(junction
 		(at 154.94 96.52)
@@ -1105,7 +1139,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 130.81) (xy 128.27 134.62)
+			(xy 128.27 130.81) (xy 128.27 133.35)
 		)
 		(stroke
 			(width 0)
@@ -1145,6 +1179,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 123.19) (xy 115.57 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42895802-999d-4d88-9df4-a942cab88abe")
+	)
+	(wire
+		(pts
 			(xy 135.89 115.57) (xy 135.89 119.38)
 		)
 		(stroke
@@ -1172,6 +1216,36 @@
 			(type default)
 		)
 		(uuid "49328303-bd41-486c-a537-b5f5619a0cb0")
+	)
+	(wire
+		(pts
+			(xy 115.57 120.65) (xy 128.27 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f38b9fe-ed99-4a42-ab94-e524d3293d7c")
+	)
+	(wire
+		(pts
+			(xy 128.27 133.35) (xy 128.27 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60a6a357-3c82-463c-8899-ce16ba9cadaa")
+	)
+	(wire
+		(pts
+			(xy 115.57 133.35) (xy 128.27 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "633404d4-61ef-4c0c-badd-26beb864c2e7")
 	)
 	(wire
 		(pts
@@ -1255,7 +1329,17 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 115.57) (xy 128.27 123.19)
+			(xy 115.57 130.81) (xy 115.57 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbca735c-0a85-425e-b519-0235fb856a06")
+	)
+	(wire
+		(pts
+			(xy 128.27 115.57) (xy 128.27 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1302,6 +1386,16 @@
 			(type default)
 		)
 		(uuid "fd4063e6-6ffe-4bd6-85bf-e8835cda586f")
+	)
+	(wire
+		(pts
+			(xy 128.27 120.65) (xy 128.27 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fff0b513-18e0-4032-893d-b58ef3326c87")
 	)
 	(global_label "D+"
 		(shape input)
@@ -1370,6 +1464,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 115.57 127 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "12453d78-9d10-4f92-90bd-f44a4a659916")
+		(property "Reference" "R12"
+			(at 119.38 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1M"
+			(at 119.38 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 117.348 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 115.57 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b5f08408-5c29-418b-8795-66e02dbb7bd8")
+		)
+		(pin "2"
+			(uuid "471133fd-04f6-424d-a615-d4744df6268a")
+		)
+		(instances
+			(project "Slim Keyboard"
+				(path "/5d65a0d4-45a3-4af0-996a-c0381d04499a/f42a8a8a-4a34-440a-8e58-9c442fe0d23e/16a43eb5-0990-4f5c-a71d-12a9055d92a0"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 128.27 127 180)
 		(unit 1)
@@ -1387,7 +1548,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1nF"
+		(property "Value" "4.7nF"
 			(at 121.92 128.27 0)
 			(effects
 				(font
