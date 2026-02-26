@@ -786,7 +786,7 @@
 	)
 	(global_label "SYSOFF_SWITCH"
 		(shape input)
-		(at 157.48 106.68 0)
+		(at 157.48 104.14 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -796,7 +796,7 @@
 		)
 		(uuid "a2e64a47-5cc6-4776-ae80-6aa691993d91")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.2819 106.68 0)
+			(at 175.2819 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)

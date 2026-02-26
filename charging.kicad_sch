@@ -1379,6 +1379,18 @@
 		)
 	)
 	(rectangle
+		(start 46.99 82.55)
+		(end 110.49 101.6)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6b4ba902-ee95-4601-b036-d5da17968315)
+	)
+	(rectangle
 		(start 82.55 101.6)
 		(end 130.81 127)
 		(stroke
@@ -1389,6 +1401,18 @@
 			(type none)
 		)
 		(uuid a2c60148-d5ac-4fd6-a8ed-d625e066494b)
+	)
+	(rectangle
+		(start 148.59 102.87)
+		(end 172.72 151.13)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f8436d66-edec-40a5-9842-e75804a45aa2)
 	)
 	(text "Desired for 500mAh Battery:\nI_CHG = 250mA\nK_ISET = 890\n-> 890/0.25 = 3560 OHM"
 		(exclude_from_sim no)
@@ -1409,6 +1433,26 @@
 			)
 		)
 		(uuid "8068332a-2b49-4144-9a9a-957f0cc10755")
+	)
+	(text "TBD"
+		(exclude_from_sim no)
+		(at 152.908 148.844 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a0c9be9d-d75b-4596-b9ee-40abd440c15b")
+	)
+	(text "R_ILIM = K_ILIM / I_IMAX\nK_ILIM = 1550 AΩ\n\nfor 500mA:\nR_ILIM = 1550 AΩ / 0.5 A = 3100"
+		(exclude_from_sim no)
+		(at 65.532 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "de6c5d1d-d05e-4456-b1eb-5f78642fd078")
 	)
 	(junction
 		(at 142.24 60.96)
@@ -2170,28 +2214,6 @@
 			)
 		)
 	)
-	(global_label "VBUS"
-		(shape input)
-		(at 157.48 132.08 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6b5eed8f-68b2-47b8-871f-9da9ed9871a0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.48 139.9638 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "VDDH"
 		(shape input)
 		(at 175.26 77.47 0)
@@ -2258,7 +2280,7 @@
 			)
 		)
 	)
-	(global_label "VBUS"
+	(global_label "VDDH"
 		(shape input)
 		(at 165.1 132.08 270)
 		(fields_autoplaced yes)
@@ -2268,9 +2290,31 @@
 			)
 			(justify right)
 		)
-		(uuid "d55ced66-dbf2-4b6f-a375-06ce342201d9")
+		(uuid "9f8af16c-1204-44d8-99d5-0fc832a2b1cf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.1 139.9638 90)
+			(at 165.1 140.0243 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VDDH"
+		(shape input)
+		(at 157.48 132.08 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f34ef2f8-fd3b-4dfb-8d6c-a0a7a94e0088")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 157.48 140.0243 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2512,7 +2556,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 122.682 105.41 90)
 			(effects
 				(font
@@ -2801,7 +2845,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 164.1348 66.04 0)
 			(effects
 				(font
@@ -3220,7 +3264,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 173.482 109.22 90)
 			(effects
 				(font
@@ -3423,7 +3467,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 110.998 69.85 90)
 			(effects
 				(font
@@ -3605,7 +3649,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "dca1943a-c3c9-40c3-9e13-5faf30870be9")
 		(property "Reference" "R10"
 			(at 104.14 98.044 90)
@@ -3615,7 +3659,7 @@
 				)
 			)
 		)
-		(property "Value" "N.C."
+		(property "Value" "3.1k"
 			(at 104.14 100.584 90)
 			(effects
 				(font
@@ -3623,7 +3667,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 104.14 93.472 90)
 			(effects
 				(font
@@ -3942,7 +3986,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 163.322 121.92 90)
 			(effects
 				(font
@@ -4012,7 +4056,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 155.702 121.92 90)
 			(effects
 				(font
