@@ -4745,7 +4745,7 @@
 	)
 	(global_label "POWER_PIN"
 		(shape input)
-		(at 191.77 146.05 0)
+		(at 189.23 146.05 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4755,7 +4755,7 @@
 		)
 		(uuid "7f1511a3-773c-4d20-bb8a-fbb95440a0d8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 205.399 146.05 0)
+			(at 202.859 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4811,7 +4811,7 @@
 	)
 	(global_label "BLED"
 		(shape input)
-		(at 191.77 72.39 0)
+		(at 189.23 72.39 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4821,7 +4821,7 @@
 		)
 		(uuid "b87373f5-2e78-43d3-9730-61c060e1812f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 199.4723 72.39 0)
+			(at 196.9323 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5696,7 +5696,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "FC-12M 32.7680KA-AC0"
+		(property "Value" "ECS-.327-9-34B-TR"
 			(at 51.562 54.61 90)
 			(effects
 				(font
@@ -5714,7 +5714,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://support.epson.biz/td/api/doc_check.php?dl=brief_FC-12M&lang=en"
+		(property "Datasheet" "https://ecsxtal.com/store/pdf/ecx-31b.pdf"
 			(at 58.42 58.42 0)
 			(effects
 				(font
@@ -5791,7 +5791,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor NP0"
+		(property "Description" "Unpolarized capacitor NP0 +-2"
 			(at 50.8 182.88 0)
 			(effects
 				(font
@@ -6100,7 +6100,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 144.78 168.91 90)
 			(effects
 				(font
@@ -6395,7 +6395,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor NP0"
+		(property "Description" "Unpolarized capacitor NP0 +-2"
 			(at 48.26 49.53 0)
 			(effects
 				(font
@@ -7071,7 +7071,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor NP0"
+		(property "Description" "Unpolarized capacitor NP0 +-2"
 			(at 50.8 163.83 0)
 			(effects
 				(font
@@ -7113,7 +7113,7 @@
 				)
 			)
 		)
-		(property "Value" "BLUE"
+		(property "Value" "IN-S85AT5B"
 			(at 133.6675 167.64 0)
 			(effects
 				(font
@@ -7130,7 +7130,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.inolux-corp.com/datasheet/SMDLED/Mono%20Color%20Top%20View/IN-S85AT%20Series_V1.1.pdf"
 			(at 132.08 172.72 0)
 			(effects
 				(font
@@ -7139,7 +7139,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "Blue Light emitting diode"
 			(at 132.08 172.72 0)
 			(effects
 				(font
@@ -7257,7 +7257,7 @@
 				)
 			)
 		)
-		(property "Value" "1pF"
+		(property "Value" "1.2pF"
 			(at 247.904 125.73 0)
 			(effects
 				(font
@@ -7953,7 +7953,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor XR7"
+		(property "Description" "Unpolarized capacitor X7R"
 			(at 71.12 142.24 0)
 			(effects
 				(font
@@ -8977,7 +8977,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor NP0"
+		(property "Description" "Unpolarized capacitor NP0 +-2"
 			(at 48.26 68.58 0)
 			(effects
 				(font
