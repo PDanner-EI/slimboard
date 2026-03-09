@@ -102,7 +102,7 @@
 						(type none)
 					)
 				)
-				(pin power_out line
+				(pin power_in line
 					(at -10.16 16.51 0)
 					(length 2.54)
 					(name "GND"
@@ -120,7 +120,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin power_in line
 					(at -10.16 13.97 0)
 					(length 2.54)
 					(name "EXT_3.3V"
@@ -156,7 +156,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin power_in line
 					(at -10.16 8.89 0)
 					(length 2.54)
 					(name "GND"
@@ -354,7 +354,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin power_in line
 					(at 15.24 16.51 180)
 					(length 2.54)
 					(name "GND"
@@ -372,7 +372,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin power_in line
 					(at 15.24 13.97 180)
 					(length 2.54)
 					(name "INT_VDDH"
@@ -408,7 +408,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin power_in line
 					(at 15.24 8.89 180)
 					(length 2.54)
 					(name "GND"
