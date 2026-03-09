@@ -9169,4 +9169,46 @@
 			)
 		)
 	)
+	(sheet
+		(at 19.05 17.78)
+		(size 38.1 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d1d926c2-ae64-4b8c-8423-b9ca7f78d7d3")
+		(property "Sheetname" "alt_LEDs"
+			(at 19.05 17.0684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "alt_leds.kicad_sch"
+			(at 19.05 29.7946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Slim Keyboard"
+				(path "/5d65a0d4-45a3-4af0-996a-c0381d04499a/f42a8a8a-4a34-440a-8e58-9c442fe0d23e"
+					(page "9")
+				)
+			)
+		)
+	)
 )

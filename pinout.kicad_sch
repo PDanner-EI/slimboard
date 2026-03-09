@@ -712,6 +712,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 85.09) (xy 111.76 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24f21ff6-8447-4fed-8448-d7bba8895eb1")
+	)
+	(wire
+		(pts
 			(xy 106.68 77.47) (xy 111.76 77.47)
 		)
 		(stroke
@@ -732,29 +742,29 @@
 	)
 	(global_label "EXT_VCC"
 		(shape input)
-		(at 157.48 96.52 0)
+		(at 111.76 80.01 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "03763082-1cb2-49dd-ae59-4d34c8aa1eae")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 168.3875 96.52 0)
+			(at 100.8525 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "SYSOFF_SWITCH"
 		(shape input)
-		(at 157.48 104.14 0)
+		(at 132.08 82.55 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -764,7 +774,7 @@
 		)
 		(uuid "a2e64a47-5cc6-4776-ae80-6aa691993d91")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.2819 104.14 0)
+			(at 149.8819 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -776,7 +786,7 @@
 	)
 	(global_label "VDDH"
 		(shape input)
-		(at 157.48 101.6 0)
+		(at 132.08 80.01 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -786,7 +796,7 @@
 		)
 		(uuid "b7d21823-4403-4024-98ba-37197c6e3f46")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.4243 101.6 0)
+			(at 140.0243 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -798,22 +808,22 @@
 	)
 	(global_label "RESET"
 		(shape input)
-		(at 157.48 110.49 0)
+		(at 111.76 82.55 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "e86ff0b4-212d-4682-8223-4fca8fb88137")
+		(uuid "cd7b20a8-438d-4961-8a87-fb157b7a34ca")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 166.2103 110.49 0)
+			(at 103.0297 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -1035,6 +1045,73 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 106.68 85.09 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "94a9b031-429c-4035-85a1-58ed9c3cf7fd")
+		(property "Reference" "#PWR041"
+			(at 100.33 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 102.87 85.0899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 106.68 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6cbb14bf-1f0e-4865-a4c1-41816bc88751")
+		)
+		(instances
+			(project "Slim Keyboard"
+				(path "/5d65a0d4-45a3-4af0-996a-c0381d04499a/f42a8a8a-4a34-440a-8e58-9c442fe0d23e/302a6436-4e3c-4497-ba91-0be99fe995f0"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 106.68 77.47 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1095,6 +1172,73 @@
 			(project "Slim Keyboard"
 				(path "/5d65a0d4-45a3-4af0-996a-c0381d04499a/f42a8a8a-4a34-440a-8e58-9c442fe0d23e/302a6436-4e3c-4497-ba91-0be99fe995f0"
 					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 132.08 85.09 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ffd5f7ba-8b62-49c8-baf2-208d9181a66a")
+		(property "Reference" "#PWR042"
+			(at 138.43 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 135.89 85.0899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 132.08 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cda8e8b5-bf8b-4b6d-a2ec-ffc6895e67f7")
+		)
+		(instances
+			(project "Slim Keyboard"
+				(path "/5d65a0d4-45a3-4af0-996a-c0381d04499a/f42a8a8a-4a34-440a-8e58-9c442fe0d23e/302a6436-4e3c-4497-ba91-0be99fe995f0"
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)

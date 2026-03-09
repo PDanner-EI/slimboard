@@ -720,6 +720,10 @@
     [
       "302a6436-4e3c-4497-ba91-0be99fe995f0",
       "pinout"
+    ],
+    [
+      "d1d926c2-ae64-4b8c-8423-b9ca7f78d7d3",
+      "alt_LEDs"
     ]
   ],
   "text_variables": {}
