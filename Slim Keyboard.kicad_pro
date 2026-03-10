@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 4.953,
-          "width": 4.953
+          "drill": 0.3,
+          "height": 0.5,
+          "width": 0.9
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -127,7 +127,7 @@
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.3,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.25,
+        "min_hole_clearance": 0.35,
         "min_hole_to_hole": 0.35,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
@@ -189,10 +189,13 @@
       "track_widths": [
         0.0,
         0.1,
+        0.15,
         0.2,
         0.25,
         0.3,
-        0.6
+        0.4,
+        0.6,
+        0.65
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -542,7 +545,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "production/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
