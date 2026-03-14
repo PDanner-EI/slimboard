@@ -133,7 +133,7 @@
 		(uuid "7d39a4d1-0e5e-4cf1-aaf1-4406288608bc")
 	)
 	(pad "1" smd rect
-		(at 14.65 1.97)
+		(at 14.15 2.47)
 		(size 0.5 3.94)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "6da8963b-7f1d-48dd-83d8-2ed3ef63168a")
