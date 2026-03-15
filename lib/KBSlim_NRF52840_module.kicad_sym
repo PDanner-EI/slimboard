@@ -7,7 +7,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "J"
-			(at 2.286 20.828 0)
+			(at 0 22.098 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15,7 +15,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 0 0 0)
+			(at -3.81 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24,7 +24,7 @@
 			)
 		)
 		(property "Footprint" "KBSlim_NRF52840_module:NRF52840_module"
-			(at 2.54 23.114 0)
+			(at -0.762 24.638 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33,7 +33,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at -3.81 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42,7 +42,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at -3.81 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52,8 +52,8 @@
 		)
 		(symbol "NRF_Bluetooth_Module_0_1"
 			(rectangle
-				(start -6.35 -17.78)
-				(end 11.43 -22.86)
+				(start -8.89 -16.51)
+				(end 8.89 -21.59)
 				(stroke
 					(width 0)
 					(type default)
@@ -63,8 +63,8 @@
 				)
 			)
 			(rectangle
-				(start -0.635 19.05)
-				(end 5.715 15.24)
+				(start -3.175 20.32)
+				(end 3.175 16.51)
 				(stroke
 					(width 0)
 					(type default)
@@ -75,8 +75,8 @@
 			)
 			(polyline
 				(pts
-					(xy 8.89 -17.78) (xy 8.89 -21.59) (xy 6.35 -21.59) (xy 6.35 -19.05) (xy 3.81 -19.05) (xy 3.81 -21.59)
-					(xy 1.27 -21.59) (xy 1.27 -19.05) (xy -1.27 -19.05) (xy -1.27 -21.59) (xy -3.81 -21.59) (xy -3.81 -19.05)
+					(xy 6.35 -16.51) (xy 6.35 -20.32) (xy 3.81 -20.32) (xy 3.81 -17.78) (xy 1.27 -17.78) (xy 1.27 -20.32)
+					(xy -1.27 -20.32) (xy -1.27 -17.78) (xy -3.81 -17.78) (xy -3.81 -20.32) (xy -6.35 -20.32) (xy -6.35 -17.78)
 				)
 				(stroke
 					(width 0)
@@ -89,8 +89,8 @@
 		)
 		(symbol "NRF_Bluetooth_Module_1_1"
 			(rectangle
-				(start -7.62 19.05)
-				(end 12.7 -22.86)
+				(start -11.43 20.32)
+				(end 11.43 -21.59)
 				(stroke
 					(width 0)
 					(type solid)
@@ -100,7 +100,7 @@
 				)
 			)
 			(pin power_in line
-				(at -10.16 16.51 0)
+				(at -13.97 17.78 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -117,10 +117,10 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -10.16 13.97 0)
+			(pin bidirectional line
+				(at -13.97 15.24 0)
 				(length 2.54)
-				(name "EXT_3.3V"
+				(name "D1_P0.06"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -135,10 +135,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at -10.16 11.43 0)
+			(pin bidirectional line
+				(at -13.97 12.7 0)
 				(length 2.54)
-				(name "RESET"
+				(name "D0_P0.08"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -154,7 +154,7 @@
 				)
 			)
 			(pin power_in line
-				(at -10.16 8.89 0)
+				(at -13.97 10.16 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -171,10 +171,10 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at -10.16 6.35 0)
+			(pin power_in line
+				(at -13.97 7.62 0)
 				(length 2.54)
-				(name "PH0"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -190,9 +190,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at -10.16 3.81 0)
+				(at -13.97 5.08 0)
 				(length 2.54)
-				(name "PH1"
+				(name "D2_P0.17"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -208,9 +208,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at -10.16 1.27 0)
+				(at -13.97 2.54 0)
 				(length 2.54)
-				(name "PH2"
+				(name "D3_P0.20"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -226,9 +226,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at -10.16 -1.27 0)
+				(at -13.97 0 0)
 				(length 2.54)
-				(name "PH3"
+				(name "D4_P0.22"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -244,9 +244,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at -10.16 -3.81 0)
+				(at -13.97 -2.54 0)
 				(length 2.54)
-				(name "PH4"
+				(name "D5_P0.24"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -262,9 +262,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at -10.16 -6.35 0)
+				(at -13.97 -5.08 0)
 				(length 2.54)
-				(name "PH5"
+				(name "D6_P1.00"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -280,9 +280,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at -10.16 -8.89 0)
+				(at -13.97 -7.62 0)
 				(length 2.54)
-				(name "PH6"
+				(name "D7_P0.11"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -298,9 +298,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at -10.16 -11.43 0)
+				(at -13.97 -10.16 0)
 				(length 2.54)
-				(name "PH7"
+				(name "D8_P1.04"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -316,9 +316,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at -10.16 -13.97 0)
+				(at -13.97 -12.7 0)
 				(length 2.54)
-				(name "PH8"
+				(name "D9_P1.06"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -333,28 +333,10 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at -10.16 -16.51 0)
-				(length 2.54)
-				(name "PH9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin power_in line
-				(at 15.24 16.51 180)
+				(at 13.97 17.78 180)
 				(length 2.54)
-				(name "GND"
+				(name "BAT+"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -370,9 +352,9 @@
 				)
 			)
 			(pin power_in line
-				(at 15.24 13.97 180)
+				(at 13.97 15.24 180)
 				(length 2.54)
-				(name "INT_VDDH"
+				(name "BAT+"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -387,46 +369,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at 15.24 11.43 180)
-				(length 2.54)
-				(name "SYS_OFF"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "26"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin power_in line
-				(at 15.24 8.89 180)
+				(at 13.97 12.7 180)
 				(length 2.54)
 				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "25"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 15.24 6.35 180)
-				(length 2.54)
-				(name "PL19"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -441,10 +387,10 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 15.24 3.81 180)
+			(pin input line
+				(at 13.97 10.16 180)
 				(length 2.54)
-				(name "PL18"
+				(name "RESET"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -459,10 +405,10 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 15.24 1.27 180)
+			(pin power_out line
+				(at 13.97 7.62 180)
 				(length 2.54)
-				(name "PL17"
+				(name "3.3V"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -478,9 +424,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 -1.27 180)
+				(at 13.97 5.08 180)
 				(length 2.54)
-				(name "PL16"
+				(name "D21_P0.31"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -496,9 +442,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 -3.81 180)
+				(at 13.97 2.54 180)
 				(length 2.54)
-				(name "PL15"
+				(name "D20_P0.29"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -514,9 +460,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 -6.35 180)
+				(at 13.97 0 180)
 				(length 2.54)
-				(name "PL14"
+				(name "D19_P0.02"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -532,9 +478,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 -8.89 180)
+				(at 13.97 -2.54 180)
 				(length 2.54)
-				(name "PL13"
+				(name "D18_P1.15"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -550,9 +496,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 -11.43 180)
+				(at 13.97 -5.08 180)
 				(length 2.54)
-				(name "PL12"
+				(name "D15_P1.13"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -568,9 +514,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 -13.97 180)
+				(at 13.97 -7.62 180)
 				(length 2.54)
-				(name "PL11"
+				(name "D14_P1.11"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -586,9 +532,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 -16.51 180)
+				(at 13.97 -10.16 180)
 				(length 2.54)
-				(name "PL10"
+				(name "D16_P0.10"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -596,6 +542,24 @@
 					)
 				)
 				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 13.97 -12.7 180)
+				(length 2.54)
+				(name "D11_P0.09"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
 					(effects
 						(font
 							(size 1.27 1.27)
