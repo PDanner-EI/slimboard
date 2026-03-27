@@ -1,0 +1,2264 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "28d7048f-5352-4882-abd8-9a4244f769a6")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(rectangle
+		(start 36.83 91.44)
+		(end 154.94 132.08)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 29fac7b7-cc21-4469-a127-6a49e3e34d60)
+	)
+	(rectangle
+		(start 36.83 52.07)
+		(end 129.54 91.44)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 976be8ad-1082-48bb-a464-529a8458d4b0)
+	)
+	(rectangle
+		(start 36.83 26.67)
+		(end 129.54 52.07)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b32766d9-5656-459d-83a0-31f7e3a3b50c)
+	)
+	(text "3FV"
+		(exclude_from_sim no)
+		(at 64.262 113.284 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "032209f0-9968-42a6-9381-084f1eaebab8")
+	)
+	(text "2FV"
+		(exclude_from_sim no)
+		(at 40.64 98.552 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0a353bbb-deb7-4855-9769-9853cd527c0f")
+	)
+	(text "Blue on 3.3V NRF GPIO PIN"
+		(exclude_from_sim no)
+		(at 108.458 31.496 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "12fbe2bd-232e-4140-a581-6217b18f16dd")
+	)
+	(text "1.8FV"
+		(exclude_from_sim no)
+		(at 70.612 71.374 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2a00edc9-3f54-4358-9602-a9ea5d98f367")
+	)
+	(text "2.1FV"
+		(exclude_from_sim no)
+		(at 103.378 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3ffdda0d-2d1e-42cd-b0be-a23f911c8e1e")
+	)
+	(text "Orange on charging 5.5 voltage"
+		(exclude_from_sim no)
+		(at 110.744 54.864 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "48a300c3-a114-48e3-b260-2b90f7bf0feb")
+	)
+	(text "2.65FV"
+		(exclude_from_sim no)
+		(at 97.028 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5d44e26d-26ee-4eaa-a4a5-11198dc16732")
+	)
+	(text "Green on charging 5.5 voltage"
+		(exclude_from_sim no)
+		(at 110.49 94.488 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5d76f50d-af38-480d-8098-37443369d312")
+	)
+	(text "2FV"
+		(exclude_from_sim no)
+		(at 40.64 55.372 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "81de5f23-bde1-4fcc-ad68-78fca49283c6")
+	)
+	(text "3.3FV"
+		(exclude_from_sim no)
+		(at 70.866 42.164 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "83d483a2-10f8-4317-8d05-2e4dfa767bef")
+	)
+	(text "2FV"
+		(exclude_from_sim no)
+		(at 130.048 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bcb5fa9c-8eb1-4ce0-a3ed-547724155f6c")
+	)
+	(no_connect
+		(at 101.6 105.41)
+		(uuid "034fbe95-e147-4f6f-9d64-9b1630c838eb")
+	)
+	(no_connect
+		(at 49.53 74.93)
+		(uuid "0a3e29ec-88df-4ee0-9647-ae7a41c6c887")
+	)
+	(no_connect
+		(at 113.03 83.82)
+		(uuid "0ad5c195-c9a5-44d2-b4b0-7b426fee06be")
+	)
+	(no_connect
+		(at 127 105.41)
+		(uuid "0ca0a572-e7ba-4098-a66c-53e25cb8e162")
+	)
+	(no_connect
+		(at 80.01 83.82)
+		(uuid "1604c49c-4764-44fb-9b7d-bfcce78f0337")
+	)
+	(no_connect
+		(at 80.01 63.5)
+		(uuid "19993293-dc84-41b4-a7da-1831cb079ca3")
+	)
+	(no_connect
+		(at 113.03 73.66)
+		(uuid "1d4d1a30-368e-4f0d-a933-bbc40393e705")
+	)
+	(no_connect
+		(at 107.95 63.5)
+		(uuid "1f2b0f76-e1ac-49ac-b375-c738a68c310b")
+	)
+	(no_connect
+		(at 93.98 105.41)
+		(uuid "25811f94-29c2-46dd-83b5-ef010f239225")
+	)
+	(no_connect
+		(at 67.31 63.5)
+		(uuid "2fd0a933-ae37-4af3-af74-20fecffca236")
+	)
+	(no_connect
+		(at 87.63 63.5)
+		(uuid "37a10bc4-b0f3-4b66-9666-a6a28bbf5128")
+	)
+	(no_connect
+		(at 87.63 83.82)
+		(uuid "3c0382f7-c1ea-4c67-9c28-7edcafe2650e")
+	)
+	(no_connect
+		(at 87.63 73.66)
+		(uuid "3ebb6ece-848a-460d-b129-39b9e4c1bba1")
+	)
+	(no_connect
+		(at 60.96 105.41)
+		(uuid "3f8d1cfb-50c6-44a8-bf90-8c8646a71264")
+	)
+	(no_connect
+		(at 114.3 125.73)
+		(uuid "479aa5c0-b86c-4b50-b6ad-79fccddb8fc1")
+	)
+	(no_connect
+		(at 41.91 106.68)
+		(uuid "4a5f2abd-d9ab-4fb0-8949-513ea20876ef")
+	)
+	(no_connect
+		(at 49.53 118.11)
+		(uuid "5c8397d9-ad55-4816-95f9-11acff633bf0")
+	)
+	(no_connect
+		(at 86.36 35.56)
+		(uuid "6b391fc2-a8a1-45b8-8b26-44411406d39a")
+	)
+	(no_connect
+		(at 41.91 118.11)
+		(uuid "6dcac58d-eb32-4446-8009-0676b7319320")
+	)
+	(no_connect
+		(at 86.36 46.99)
+		(uuid "73ece9e1-0747-425b-82e0-bece7e5b7540")
+	)
+	(no_connect
+		(at 49.53 63.5)
+		(uuid "74a541fd-04c2-4e9e-b8d6-7d81f66dc11a")
+	)
+	(no_connect
+		(at 134.62 105.41)
+		(uuid "7a979095-2c0c-4ef8-9217-dab4bbcf3857")
+	)
+	(no_connect
+		(at 120.65 73.66)
+		(uuid "7fa8bd60-0f8f-42e8-bf88-67eadb739f2c")
+	)
+	(no_connect
+		(at 73.66 125.73)
+		(uuid "83bd410c-1142-4408-81a0-7bec24780548")
+	)
+	(no_connect
+		(at 74.93 63.5)
+		(uuid "895c7926-bdc6-4222-bd47-86cabfdbc15a")
+	)
+	(no_connect
+		(at 66.04 35.56)
+		(uuid "9dccdec1-4e24-4b85-b940-9d9745a39fbe")
+	)
+	(no_connect
+		(at 73.66 115.57)
+		(uuid "a223b409-5712-4e2b-a58a-dcca366a49ca")
+	)
+	(no_connect
+		(at 113.03 63.5)
+		(uuid "a4653a14-2083-42d5-abf5-8b55fb14e7a2")
+	)
+	(no_connect
+		(at 41.91 74.93)
+		(uuid "a8ae5e29-38b5-41af-81e4-0da42b5d6e31")
+	)
+	(no_connect
+		(at 100.33 63.5)
+		(uuid "ad514006-cdf3-458d-95a5-be06e34c1c54")
+	)
+	(no_connect
+		(at 114.3 105.41)
+		(uuid "b7a2b7d3-ae05-4d1a-b929-0c6a572d074e")
+	)
+	(no_connect
+		(at 41.91 63.5)
+		(uuid "b86f0fe3-3636-48e9-980c-07188f78c68e")
+	)
+	(no_connect
+		(at 68.58 105.41)
+		(uuid "b98795fc-c01e-4276-99a5-2f7963d82f8c")
+	)
+	(no_connect
+		(at 81.28 125.73)
+		(uuid "c00eeb2c-b098-48cc-a8ff-84f9fe574d31")
+	)
+	(no_connect
+		(at 81.28 115.57)
+		(uuid "c38a5d4b-66e3-4bd1-ab94-c985d3164ffc")
+	)
+	(no_connect
+		(at 73.66 105.41)
+		(uuid "c469ea82-e704-47b2-b936-58b08976113c")
+	)
+	(no_connect
+		(at 49.53 106.68)
+		(uuid "c65d0469-ffba-4d84-80c9-4b37abe8fff6")
+	)
+	(no_connect
+		(at 120.65 83.82)
+		(uuid "c71cabe9-d2c1-4277-9864-114c5e103eb7")
+	)
+	(no_connect
+		(at 81.28 105.41)
+		(uuid "d4f8b108-ded9-4663-90b9-7d4b7503734d")
+	)
+	(no_connect
+		(at 73.66 35.56)
+		(uuid "d79264cb-795b-41ed-84c6-8d1cc7765d7c")
+	)
+	(no_connect
+		(at 120.65 63.5)
+		(uuid "db98917d-974a-48d3-a009-e57200502331")
+	)
+	(no_connect
+		(at 78.74 46.99)
+		(uuid "e02c21ad-f960-40c6-9b0c-f43d8a6d57ce")
+	)
+	(no_connect
+		(at 80.01 73.66)
+		(uuid "e2c5fdbf-4e28-4335-b8cc-d2b39352b2e0")
+	)
+	(no_connect
+		(at 106.68 105.41)
+		(uuid "e51aa8be-3edd-484e-891a-9eebff3b83f4")
+	)
+	(no_connect
+		(at 106.68 125.73)
+		(uuid "f85db307-b111-419c-8111-eacf969b70f5")
+	)
+	(no_connect
+		(at 78.74 35.56)
+		(uuid "f86467b0-4a15-4dd1-ac85-496c426bcf9c")
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 97.79 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "0de3cfea-dac3-42ec-81dc-704d412f12f7")
+		(property "Reference" "D8"
+			(at 96.2025 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XZCDGK54W-1VF"
+			(at 96.2025 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 97.79 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.sunledusa.com/products/spec/XZCDGK54W-1VF.pdf"
+			(at 97.79 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 97.79 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 97.79 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "03f01e3a-b12d-4563-bac7-67a7f5cc197c")
+		)
+		(pin "2"
+			(uuid "0ffeff6a-0467-48b4-8333-7d4fbe24f134")
+		)
+		(instances
+			(project "Slim Keyboard"
+				(path "/5d65a0d4-45a3-4af0-996a-c0381d04499a/f42a8a8a-4a34-440a-8e58-9c442fe0d23e/d1d926c2-ae64-4b8c-8423-b9ca7f78d7d3"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 82.55 35.56 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "1eec0e67-206f-4727-8f7f-deda8945e448")
+		(property "Reference" "R13"
+			(at 82.55 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 82.55 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 82.55 37.338 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 82.55 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9a47992c-7161-40fd-a4fd-e6725d4beb99")
+		)
+		(pin "1"
+			(uuid "b9dfb69c-b96e-4c5a-b671-c791dfd44c01")
+		)
+		(instances
+			(project ""
+				(path "/5d65a0d4-45a3-4af0-996a-c0381d04499a/f42a8a8a-4a34-440a-8e58-9c442fe0d23e/d1d926c2-ae64-4b8c-8423-b9ca7f78d7d3"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 64.77 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "228225b1-9266-4fba-a53a-48982f688341")
+		(property "Reference" "D7"
+			(at 63.1825 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IN-S85AT"
+			(at 63.1825 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 64.77 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.inolux-corp.com/datasheet/SMDLED/Mono%20Color%20Top%20View/IN-S85AT%20Series_V1.1.pdf"
+			(at 64.77 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 64.77 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 64.77 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ab39b1ac-965b-45a7-bc6c-2e692abe6d0f")
+		)
+		(pin "2"
+			(uuid "460f1bc7-9fc2-440e-8e60-8616c4761a2f")
+		)
+		(instances
+			(project "Slim Keyboard"
+				(path "/5d65a0d4-45a3-4af0-996a-c0381d04499a/f42a8a8a-4a34-440a-8e58-9c442fe0d23e/d1d926c2-ae64-4b8c-8423-b9ca7f78d7d3"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 82.55 46.99 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "5382e076-b753-4ece-a938-de75d9f04269")
+		(property "Reference" "R14"
+			(at 82.55 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 82.55 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 82.55 48.768 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 82.55 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "79047c31-e111-4392-b746-65dae0992d22")
+		)
+		(pin "1"
+			(uuid "5f1fa738-bc05-4f0b-8df0-046f117fe729")
+		)
+		(instances
+			(project "Slim Keyboard"
+				(path "/5d65a0d4-45a3-4af0-996a-c0381d04499a/f42a8a8a-4a34-440a-8e58-9c442fe0d23e/d1d926c2-ae64-4b8c-8423-b9ca7f78d7d3"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 45.72 63.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "54d28812-a4d0-424b-ac1e-79bea11dea39")
+		(property "Reference" "R18"
+			(at 45.72 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.5k"
+			(at 45.72 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 45.72 65.278 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 45.72 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "96e72362-58ee-4f03-b3ab-6fecc2ae7e01")
+		)
+		(pin "1"
+			(uuid "17aa181c-067e-43f7-8bd5-ef9f7203a55c")
+		)
+		(instances
+			(project "Slim Keyboard"
+				(path "/5d65a0d4-45a3-4af0-996a-c0381d04499a/f42a8a8a-4a34-440a-8e58-9c442fe0d23e/d1d926c2-ae64-4b8c-8423-b9ca7f78d7d3"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 116.84 73.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "5779620b-2b49-4e5f-a0de-a28d1a8f78bb")
+		(property "Reference" "R20"
+			(at 116.84 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.7k"
+			(at 116.84 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 116.84 75.438 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 116.84 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b3677a3a-d4b4-4dc6-a0a4-b80ea9515af1")
+		)
+		(pin "1"
+			(uuid "78568425-e764-4300-ac3e-e3c54029e6e8")
+		)
+		(instances
+			(project "Slim Keyboard"
+				(path "/5d65a0d4-45a3-4af0-996a-c0381d04499a/f42a8a8a-4a34-440a-8e58-9c442fe0d23e/d1d926c2-ae64-4b8c-8423-b9ca7f78d7d3"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 130.81 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "5df89524-fc39-46a3-b140-39904d6f3e3b")
+		(property "Reference" "D9"
+			(at 129.2225 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SM0805GCL"
+			(at 129.2225 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 130.81 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8456/SM0805GCL_D.pdf"
+			(at 130.81 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 130.81 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 130.81 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1aaf3a44-3a20-49c9-946c-62996af9668b")
+		)
+		(pin "2"
+			(uuid "9f0ab3d5-e3b1-4401-bf88-309ed6c6cd50")
+		)
+		(instances
+			(project "Slim Keyboard"
+				(path "/5d65a0d4-45a3-4af0-996a-c0381d04499a/f42a8a8a-4a34-440a-8e58-9c442fe0d23e/d1d926c2-ae64-4b8c-8423-b9ca7f78d7d3"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 116.84 63.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "64cdd42d-665a-4b1e-bdc6-b61419d6b54a")
+		(property "Reference" "R21"
+			(at 116.84 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.4k"
+			(at 116.84 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 116.84 65.278 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 116.84 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "98a9226d-de74-4fa9-a054-d8855f696a50")
+		)
+		(pin "1"
+			(uuid "f394df30-0524-4338-8441-86a8e8607ad2")
+		)
+		(instances
+			(project "Slim Keyboard"
+				(path "/5d65a0d4-45a3-4af0-996a-c0381d04499a/f42a8a8a-4a34-440a-8e58-9c442fe0d23e/d1d926c2-ae64-4b8c-8423-b9ca7f78d7d3"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 45.72 106.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "741580bd-b554-4eef-9be4-0eaef03c7c27")
+		(property "Reference" "R26"
+			(at 45.72 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.5k"
+			(at 45.72 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 45.72 108.458 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 45.72 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "77a7b383-65f9-42bb-bc14-3285aafccb07")
+		)
+		(pin "1"
+			(uuid "7fb08763-5310-46c1-91b1-3742ee5a2042")
+		)
+		(instances
+			(project "Slim Keyboard"
+				(path "/5d65a0d4-45a3-4af0-996a-c0381d04499a/f42a8a8a-4a34-440a-8e58-9c442fe0d23e/d1d926c2-ae64-4b8c-8423-b9ca7f78d7d3"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 77.47 115.57 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "86265983-7203-4fd1-8cec-c6ff524627f7")
+		(property "Reference" "R25"
+			(at 77.47 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 77.47 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 77.47 117.348 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 77.47 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "56ca0680-c79d-4bf9-a0ee-af8cb8710626")
+		)
+		(pin "1"
+			(uuid "88924f66-c729-4690-b35c-6671b30c3195")
+		)
+		(instances
+			(project "Slim Keyboard"
+				(path "/5d65a0d4-45a3-4af0-996a-c0381d04499a/f42a8a8a-4a34-440a-8e58-9c442fe0d23e/d1d926c2-ae64-4b8c-8423-b9ca7f78d7d3"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 83.82 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "9d949cf1-a815-40e9-ae18-2c09be11445c")
+		(property "Reference" "R17"
+			(at 83.82 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 83.82 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 83.82 85.598 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 83.82 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "31635d19-50cb-4e81-8d85-79e5ac0afd5c")
+		)
+		(pin "1"
+			(uuid "4e8e93af-a025-4f8b-8654-5c8b7f9d031e")
+		)
+		(instances
+			(project "Slim Keyboard"
+				(path "/5d65a0d4-45a3-4af0-996a-c0381d04499a/f42a8a8a-4a34-440a-8e58-9c442fe0d23e/d1d926c2-ae64-4b8c-8423-b9ca7f78d7d3"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 110.49 125.73 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "b0183cbb-7c6e-4ed7-8379-2ca1ecce377f")
+		(property "Reference" "R30"
+			(at 110.49 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "570"
+			(at 110.49 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 110.49 127.508 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 110.49 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "61fc29df-c0d9-4491-b207-2faedc08a998")
+		)
+		(pin "1"
+			(uuid "b2fe2e36-ebc0-46f9-a34f-4b4836e7e5de")
+		)
+		(instances
+			(project "Slim Keyboard"
+				(path "/5d65a0d4-45a3-4af0-996a-c0381d04499a/f42a8a8a-4a34-440a-8e58-9c442fe0d23e/d1d926c2-ae64-4b8c-8423-b9ca7f78d7d3"
+					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 69.85 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "b2b425c9-7bb9-4e2c-a854-a0d422f00169")
+		(property "Reference" "D4"
+			(at 68.2625 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XZCBD54W-1"
+			(at 68.2625 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 69.85 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.sunledusa.com/products/spec/XZCBD54W-1.pdf"
+			(at 69.85 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 69.85 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 69.85 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ad1b6ee-a6b3-4f32-ab73-5dad962bcf93")
+		)
+		(pin "2"
+			(uuid "3b78d148-d0c4-47bb-9846-e342702a660e")
+		)
+		(instances
+			(project ""
+				(path "/5d65a0d4-45a3-4af0-996a-c0381d04499a/f42a8a8a-4a34-440a-8e58-9c442fe0d23e/d1d926c2-ae64-4b8c-8423-b9ca7f78d7d3"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 45.72 74.93 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "b6d5cf83-a4e1-482b-8b12-18a7ef0f7f57")
+		(property "Reference" "R19"
+			(at 45.72 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "700"
+			(at 45.72 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 45.72 76.708 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 45.72 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bb2967c9-c38f-4e04-b4f4-45beae9e329c")
+		)
+		(pin "1"
+			(uuid "3725e663-24f8-482a-adc7-cecf82848858")
+		)
+		(instances
+			(project "Slim Keyboard"
+				(path "/5d65a0d4-45a3-4af0-996a-c0381d04499a/f42a8a8a-4a34-440a-8e58-9c442fe0d23e/d1d926c2-ae64-4b8c-8423-b9ca7f78d7d3"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 71.12 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "b8e056d2-f7cb-42aa-82aa-fc61da134e54")
+		(property "Reference" "D6"
+			(at 69.5325 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XZCM2MOK54WA-1VF"
+			(at 69.5325 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 71.12 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.sunledusa.com/products/spec/XZCM2MOK54WA-1VF.pdf"
+			(at 71.12 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 71.12 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 71.12 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8ec50d7f-5ec9-4b46-a2a0-d295b4d6f1f7")
+		)
+		(pin "2"
+			(uuid "dfb3741f-98f6-4993-ae13-757c36db696f")
+		)
+		(instances
+			(project "Slim Keyboard"
+				(path "/5d65a0d4-45a3-4af0-996a-c0381d04499a/f42a8a8a-4a34-440a-8e58-9c442fe0d23e/d1d926c2-ae64-4b8c-8423-b9ca7f78d7d3"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 77.47 125.73 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "c26d1457-c5a4-4922-9940-a8669bf7bd1a")
+		(property "Reference" "R24"
+			(at 77.47 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "500"
+			(at 77.47 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 77.47 127.508 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 77.47 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a6afe036-0c3b-4794-988d-7e1e1cb9cbdf")
+		)
+		(pin "1"
+			(uuid "7a173f55-d41c-4b39-94ef-1cb682b7b2ed")
+		)
+		(instances
+			(project "Slim Keyboard"
+				(path "/5d65a0d4-45a3-4af0-996a-c0381d04499a/f42a8a8a-4a34-440a-8e58-9c442fe0d23e/d1d926c2-ae64-4b8c-8423-b9ca7f78d7d3"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 83.82 73.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "cfa06c8f-ea60-4bd4-a25b-f8d4b0ca8c2c")
+		(property "Reference" "R16"
+			(at 83.82 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.85k"
+			(at 83.82 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 83.82 75.438 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 83.82 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1c361cf1-1f57-4d43-b93e-f55a292171b6")
+		)
+		(pin "1"
+			(uuid "ecb02063-2d67-4765-95a7-01c0fa25cf2c")
+		)
+		(instances
+			(project "Slim Keyboard"
+				(path "/5d65a0d4-45a3-4af0-996a-c0381d04499a/f42a8a8a-4a34-440a-8e58-9c442fe0d23e/d1d926c2-ae64-4b8c-8423-b9ca7f78d7d3"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 116.84 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "dd3596bc-7276-4f7f-944f-dfa8242a2a02")
+		(property "Reference" "R22"
+			(at 116.84 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "680"
+			(at 116.84 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 116.84 85.598 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 116.84 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b471fe10-eb2a-45c0-b330-158ce5adcbad")
+		)
+		(pin "1"
+			(uuid "de93ffc4-11db-4840-b334-7660a4e82106")
+		)
+		(instances
+			(project "Slim Keyboard"
+				(path "/5d65a0d4-45a3-4af0-996a-c0381d04499a/f42a8a8a-4a34-440a-8e58-9c442fe0d23e/d1d926c2-ae64-4b8c-8423-b9ca7f78d7d3"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 110.49 105.41 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "e0bb1ee1-427b-4e74-9ea9-ad000c423cd9")
+		(property "Reference" "R28"
+			(at 110.49 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.85k"
+			(at 110.49 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 110.49 107.188 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 110.49 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c9873abd-3b95-4cc8-8b1d-81925c8fcc46")
+		)
+		(pin "1"
+			(uuid "8aa43bcb-4d56-43e3-8e4c-4c3b70230ad3")
+		)
+		(instances
+			(project "Slim Keyboard"
+				(path "/5d65a0d4-45a3-4af0-996a-c0381d04499a/f42a8a8a-4a34-440a-8e58-9c442fe0d23e/d1d926c2-ae64-4b8c-8423-b9ca7f78d7d3"
+					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 45.72 118.11 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "e50bad6f-d9f6-436b-828f-b05c77a85e14")
+		(property "Reference" "R27"
+			(at 45.72 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "700"
+			(at 45.72 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 45.72 119.888 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 45.72 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "396dabcd-34db-4f6f-a108-004c2623ef93")
+		)
+		(pin "1"
+			(uuid "1453524b-ee6a-46c0-9f2f-1de1759aabdc")
+		)
+		(instances
+			(project "Slim Keyboard"
+				(path "/5d65a0d4-45a3-4af0-996a-c0381d04499a/f42a8a8a-4a34-440a-8e58-9c442fe0d23e/d1d926c2-ae64-4b8c-8423-b9ca7f78d7d3"
+					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 77.47 105.41 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "eb79b70a-ca9a-4454-9606-b10d314babe2")
+		(property "Reference" "R23"
+			(at 77.47 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.5k"
+			(at 77.47 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 77.47 107.188 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 77.47 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "576ba072-f4b7-4d3a-902e-cd58ce1e0817")
+		)
+		(pin "1"
+			(uuid "566dcff4-481c-456d-b616-90ca29483144")
+		)
+		(instances
+			(project "Slim Keyboard"
+				(path "/5d65a0d4-45a3-4af0-996a-c0381d04499a/f42a8a8a-4a34-440a-8e58-9c442fe0d23e/d1d926c2-ae64-4b8c-8423-b9ca7f78d7d3"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 104.14 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "f1752776-ae62-4864-8a24-6e4fde4d32eb")
+		(property "Reference" "D5"
+			(at 102.5525 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "APT2012SECK"
+			(at 102.5525 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 104.14 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/APT2012SECK.pdf"
+			(at 104.14 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 104.14 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 104.14 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cb6d632b-32ac-43e6-ac65-f0bc1f104b23")
+		)
+		(pin "2"
+			(uuid "3f7529f2-b0a3-4d6b-93ce-12182514362a")
+		)
+		(instances
+			(project "Slim Keyboard"
+				(path "/5d65a0d4-45a3-4af0-996a-c0381d04499a/f42a8a8a-4a34-440a-8e58-9c442fe0d23e/d1d926c2-ae64-4b8c-8423-b9ca7f78d7d3"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 83.82 63.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "f6e443e3-517f-4bfe-8227-95f28eae4536")
+		(property "Reference" "R15"
+			(at 83.82 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.7k"
+			(at 83.82 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 83.82 65.278 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 83.82 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8c9c0e33-f881-4158-b634-1307dceb7f8c")
+		)
+		(pin "1"
+			(uuid "a83fd706-e544-460a-a764-79a8cd75d692")
+		)
+		(instances
+			(project "Slim Keyboard"
+				(path "/5d65a0d4-45a3-4af0-996a-c0381d04499a/f42a8a8a-4a34-440a-8e58-9c442fe0d23e/d1d926c2-ae64-4b8c-8423-b9ca7f78d7d3"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
